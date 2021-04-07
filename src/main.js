@@ -34,21 +34,21 @@ Vue.use(VueMoment,{
 Vue.prototype.Global = Global.url;
 
 const routes = [
-  {path: '/home', component: LastArticles},
-  {path: '/blog', component: Blog},
-  {path: '/crear-articulo', component: CreateArticle},
-  {path: '/articulo/:id', name: 'article', component: Article},
-  {path: '/editar/:id', name: 'edit', component: EditArticle},
-  {path: '/formulario', component: Formulario},
-    {path: '/pagina/:id?', name:'pagina', component: Pagina},
-    {path: '/peliculas', component: Peliculas},
-    {path: '/ultimos-articulos', component: LastArticles},
-    {path: '/buscador/:searchString', component: Search},
-    {path: '/redirect/:searchString', component: Redirect},
-    {path: '/mi-componente', component: MiComponente},
-  {path: '/hola-mundo', component: HelloWorld},
-  {path: '/', component: LastArticles},
-  {path: '*', component: ErrorComponent},
+  { path: "/vue1/home", component: LastArticles },
+  { path: "/vue1/blog", component: Blog },
+  { path: "/vue1/crear-articulo", component: CreateArticle },
+  { path: "/vue1/articulo/:id", name: "article", component: Article },
+  { path: "/vue1/editar/:id", name: "edit", component: EditArticle },
+  { path: "/vue1/formulario", component: Formulario },
+  { path: "/vue1/pagina/:id?", name: "pagina", component: Pagina },
+  { path: "/vue1/peliculas", component: Peliculas },
+  { path: "/vue1/ultimos-articulos", component: LastArticles },
+  { path: "/vue1/buscador/:searchString", component: Search },
+  { path: "/vue1/redirect/:searchString", component: Redirect },
+  { path: "/vue1/mi-componente", component: MiComponente },
+  { path: "/vue1/hola-mundo", component: HelloWorld },
+  { path: "/vue1", component: LastArticles },
+  { path: "*", component: ErrorComponent },
 ];
 
 const router = new VueRouter({
