@@ -5,17 +5,17 @@
             <!--menu-->
             <nav id="menu">
                 <ul>
-                    <li>
-                        <router-link to="/home"  active-class="active">Inicio</router-link>
+       <li>
+                        <router-link to="/vue1/home"  active-class="active">Inicio</router-link>
                     </li>
                     <li>
-                        <router-link to="/blog" active-class="active">Blog</router-link>
+                        <router-link to="/vue1/blog" active-class="active">Blog</router-link>
                     </li>
                     <li>
-                        <router-link to="/formulario" active-class="active">Formulario</router-link>
+                        <router-link to="/vue1/formulario" active-class="active">Formulario</router-link>
                     </li>
                     <li>
-                        <router-link to="/peliculas" active-class="active">Peliculas</router-link>
+                        <router-link to="/vue1/peliculas" active-class="active">Peliculas</router-link>
                     </li>
 
                 </ul>
